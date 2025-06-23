@@ -1,21 +1,36 @@
 {
-  "name": "telegram-events-bot2",
+  "name": "p2p-social-signaling",
   "version": "1.0.0",
-  "description": "Telegram bot for search and feed functionality",
+  "description": "Bootstrap signaling server for P2P Social Network",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
   },
+  "keywords": [
+    "p2p",
+    "webrtc",
+    "signaling",
+    "social",
+    "decentralized"
+  ],
+  "author": "P2P Social Team",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "node-telegram-bot-api": "^0.64.0",
-    "cors": "^2.8.5"
+    "ws": "^8.14.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.2"
   },
   "engines": {
     "node": ">=16.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/p2p-social-signaling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/p2p-social-signaling/issues"
+  },
+  "homepage": "https://github.com/your-username/p2p-social-signaling#readme"
 }
