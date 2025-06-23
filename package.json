@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "p2p",
@@ -24,13 +24,5 @@
   },
   "engines": {
     "node": ">=16.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/your-username/p2p-social-signaling.git"
-  },
-  "bugs": {
-    "url": "https://github.com/your-username/p2p-social-signaling/issues"
-  },
-  "homepage": "https://github.com/your-username/p2p-social-signaling#readme"
+  }
 }
